@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'emily olivia';
+    src: url(../../Fontes/emily_olivia/Emily\ Olivia.otf) format(OpenType);
+}
+
+/* 
+    em HTML é ID = em CSS é "#"
+    em HTML é class = em CSS é "."
+*/
+
+
+body {
+    background-color: #8F8886;
+    font-family: 'emily olivia', Arial, Helvetica, sans-serif;
+}
+#principal {
+    text-align: center;
+    background-color: #0E3EE6;
+}
+
+h1 {
+    color: #394366;
+}
+
+h2 {
+    color: #516639;
+}
+
+.basico {
+    background-color: #E3DFE6;
+    font-weight: lighter;
+}
+
+.intermediario {
+    background-color: #DBD6DD;
+    font-weight: bolder;
+}
+
+.avancado {
+    background-color: #B9B5BB;
+    font-weight: bold;
+}
